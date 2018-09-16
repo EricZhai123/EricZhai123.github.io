@@ -3,20 +3,17 @@
 
 
     
-    
   <url>
-    <loc>https://ericzhai123.github.io/2018/09/14/night/</loc>
-    <lastmod>2018-09-14T06:12:57.412Z</lastmod>
+    <loc>https://ericzhai123.github.io/2018/09/14/nodejs(1)/</loc>
+    <lastmod>2018-09-16T17:32:56.494Z</lastmod>
     <data>
         <display>
-        <title>jQuery对表单的操作及更多应用</title>
+        <title>Nodejs入门笔记（一）</title>
         <pubTime>2018-09-14T05:57:56.000Z</pubTime>
         
-        <tag>jQuery</tag>
+        <tag>Nodejs</tag>
          
-        <tag>表格</tag>
-         
-        <tag>表单验证</tag>
+        <tag>服务器端</tag>
          
          
            
@@ -27,6 +24,7 @@
     </data>
     </url>
 
+    
     
     
 </urlset>
