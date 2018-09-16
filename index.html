@@ -379,13 +379,7 @@
 <p>#四、Nodejs实战项目开发：<br>1、web组件：gui(浏览器,http客户端)-web服务器（Node.js service）-数据库（SQLite\LevelDB\Redis)<br>2、Express:<br>   2.1、安装：npm install -g express和npm install -g express-generator<br>   <img src="https://i.imgur.com/xXJnzeL.png" alt=""><br>其中 var app=express()//初始化操作<br>访问：localhost:3000/index<br>显示：hello index test<br>3、Express api官网：<a href="http://www.express.com/4x/api.html" target="_blank" rel="noopener">www.express.com/4x/api.html</a><br>4、Express的配置与路由<br>   4.1、express基础：request、response的一系列方法<br>   4.2、express初始化设置：<br>      ①request-&gt;中间件（回调函数组成app.use\app.get\app.post)-&gt;response<br>   实例：（返回课程信息和答疑json数据）<br><img src="https://i.imgur.com/LRk3pvY.png" alt=""></p>
 <p><img src="https://i.imgur.com/d8MaoIT.png" alt=""><br>在cmd中打开服务:node express_json<br>浏览器返回：<br>1、未解决<br><img src="https://i.imgur.com/XAnpRCm.png" alt=""><br>2、所有答疑列表<br><img src="https://i.imgur.com/9qQp6TX.png" alt=""><br>3、已解决<br><img src="https://i.imgur.com/0XmytLe.png" alt=""><br>  4.3、返回html格式<br><img src="https://i.imgur.com/lLNeG4a.png" alt=""><br>浏览器返回：<br><img src="https://i.imgur.com/RjEJXXU.png" alt=""></p>
 <p>#五、Expressh和html（如何使用模板引擎）<br>主要代码行：<br>App.set(‘view engine’,’ejs’); //设置引擎模板ejs<br>app.set(‘views’,__dirname+’/views’); /等下的render会找这个路径下的ejs文件<br>Res.render(‘home.ejs’,{title:’ejs template’});//视图渲染文件home.ejs,其中title是变量，可以在home.ejs中获取得到并显示在html中<br>注意：<br>准备工作：<br>1、布置好工作区间（本地测试），新建文件夹：在d盘新建一个项目文件夹：<br>        我的路径是D:\nodejs_project<br>2、创建项目，执行 npm init，创建项目。说白就是主要用来创建一个package.json这个文件，下面会让你设置一些参数，默认即可，在项目文件夹中会出现一个package.json文件<br>3、安装express  npm install express –save<br>说明：如果指定了 –save 参数，那么此模块将被添加到 package.json 文件中 dependencies 依赖列表中。 然后通过 npm install 命令即可自动安装依赖列表中所列出的所有模块。个人推荐使用–save的方式。<br>4、装完express之后，项目文件夹中多了一个package-lock.json文件和node_modules文件夹。<br>5、安装ejs:  npm install ejs –save,安装完之后，在node_modules文件夹中会多一个ejs的文件夹。代表项目中已经添加了ejs</p>
-<p>  测试一下项目：<br>其中express_html.js</p>
-<p>Home.ejs</p>
-<p>目录结构：</p>
-<p>Home.ejs在views文件夹下，如下图</p>
-<p>Cmd 开启node服务，如下图：</p>
-<p>浏览器测试：</p>
-<p>成功！（成功输出变量）</p>
+<p>  测试一下项目：<br>其中express_html.js<br><img src="https://i.imgur.com/0po6pnz.png" alt=""><br>Home.ejs<br><img src="https://i.imgur.com/V3mtByh.png" alt=""><br>目录结构：<br><img src="https://i.imgur.com/dpZ8SqU.png" alt=""><br>Home.ejs在views文件夹下，如下图<br><img src="https://i.imgur.com/xQlmDxt.png" alt=""><br>Cmd 开启node服务，如下图：<br><img src="https://i.imgur.com/oLJudto.png" alt=""><br>浏览器测试：<br><img src="https://i.imgur.com/P04R1iV.png" alt=""><br>成功！（成功输出变量）</p>
 
           
         
